@@ -28,3 +28,10 @@ This repository contains implementations of various design patterns in TypeScrip
 
 * Adapter Pattern: Converts the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
   - Example: [`PaymentProcessor.ts`](./PaymentProcessor.ts)
+
+* Factory Method Pattern: Defines an interface for creating an object, but lets subclasses alter the type of objects that will be created.
+  - Example: [`Notification.ts`](./Notification.ts)
+  - Example: [`FileProcessor.ts`](./FileProcessor.ts)
+
+* Builder Pattern: Separates the construction of a complex object from its representation so that the same construction process can create different representations.
+  - Example: [`HTTPMethod.ts`](./HTTPMethod.ts)
